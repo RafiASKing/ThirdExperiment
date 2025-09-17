@@ -11,6 +11,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+
 # Use a diary_entries directory located next to app.py (absolute path)
 DIARY_DIR = Path(__file__).resolve().parent / "diary_entries"
 DIARY_DIR.mkdir(parents=True, exist_ok=True)
